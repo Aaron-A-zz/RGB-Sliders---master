@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210053A31AD5D2E600B36748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210053A21AD5D2E600B36748 /* AppDelegate.swift */; };
+		210053A51AD5D2E600B36748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210053A41AD5D2E600B36748 /* ViewController.swift */; };
+		210053A81AD5D2E600B36748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210053A61AD5D2E600B36748 /* Main.storyboard */; };
+		210053AA1AD5D2E600B36748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210053A91AD5D2E600B36748 /* Images.xcassets */; };
+		210053AD1AD5D2E600B36748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210053AB1AD5D2E600B36748 /* LaunchScreen.xib */; };
+		210053B91AD5D2E600B36748 /* RGB_SlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210053B81AD5D2E600B36748 /* RGB_SlidersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210053B31AD5D2E600B36748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210053951AD5D2E600B36748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2100539C1AD5D2E600B36748;
+			remoteInfo = "RGB Sliders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2100539D1AD5D2E600B36748 /* RGB Sliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB Sliders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		210053A11AD5D2E600B36748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210053A21AD5D2E600B36748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		210053A41AD5D2E600B36748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		210053A71AD5D2E600B36748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210053A91AD5D2E600B36748 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		210053AC1AD5D2E600B36748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		210053B21AD5D2E600B36748 /* RGB SlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB SlidersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		210053B71AD5D2E600B36748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210053B81AD5D2E600B36748 /* RGB_SlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_SlidersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2100539A1AD5D2E600B36748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210053AF1AD5D2E600B36748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210053941AD5D2E600B36748 = {
+			isa = PBXGroup;
+			children = (
+				2100539F1AD5D2E600B36748 /* RGB Sliders */,
+				210053B51AD5D2E600B36748 /* RGB SlidersTests */,
+				2100539E1AD5D2E600B36748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2100539E1AD5D2E600B36748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2100539D1AD5D2E600B36748 /* RGB Sliders.app */,
+				210053B21AD5D2E600B36748 /* RGB SlidersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2100539F1AD5D2E600B36748 /* RGB Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				210053A21AD5D2E600B36748 /* AppDelegate.swift */,
+				210053A41AD5D2E600B36748 /* ViewController.swift */,
+				210053A61AD5D2E600B36748 /* Main.storyboard */,
+				210053A91AD5D2E600B36748 /* Images.xcassets */,
+				210053AB1AD5D2E600B36748 /* LaunchScreen.xib */,
+				210053A01AD5D2E600B36748 /* Supporting Files */,
+			);
+			path = "RGB Sliders";
+			sourceTree = "<group>";
+		};
+		210053A01AD5D2E600B36748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210053A11AD5D2E600B36748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		210053B51AD5D2E600B36748 /* RGB SlidersTests */ = {
+			isa = PBXGroup;
+			children = (
+				210053B81AD5D2E600B36748 /* RGB_SlidersTests.swift */,
+				210053B61AD5D2E600B36748 /* Supporting Files */,
+			);
+			path = "RGB SlidersTests";
+			sourceTree = "<group>";
+		};
+		210053B61AD5D2E600B36748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210053B71AD5D2E600B36748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2100539C1AD5D2E600B36748 /* RGB Sliders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210053BC1AD5D2E600B36748 /* Build configuration list for PBXNativeTarget "RGB Sliders" */;
+			buildPhases = (
+				210053991AD5D2E600B36748 /* Sources */,
+				2100539A1AD5D2E600B36748 /* Frameworks */,
+				2100539B1AD5D2E600B36748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGB Sliders";
+			productName = "RGB Sliders";
+			productReference = 2100539D1AD5D2E600B36748 /* RGB Sliders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210053B11AD5D2E600B36748 /* RGB SlidersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210053BF1AD5D2E600B36748 /* Build configuration list for PBXNativeTarget "RGB SlidersTests" */;
+			buildPhases = (
+				210053AE1AD5D2E600B36748 /* Sources */,
+				210053AF1AD5D2E600B36748 /* Frameworks */,
+				210053B01AD5D2E600B36748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210053B41AD5D2E600B36748 /* PBXTargetDependency */,
+			);
+			name = "RGB SlidersTests";
+			productName = "RGB SlidersTests";
+			productReference = 210053B21AD5D2E600B36748 /* RGB SlidersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210053951AD5D2E600B36748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aaron Ackerman";
+				TargetAttributes = {
+					2100539C1AD5D2E600B36748 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					210053B11AD5D2E600B36748 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2100539C1AD5D2E600B36748;
+					};
+				};
+			};
+			buildConfigurationList = 210053981AD5D2E600B36748 /* Build configuration list for PBXProject "RGB Sliders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210053941AD5D2E600B36748;
+			productRefGroup = 2100539E1AD5D2E600B36748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2100539C1AD5D2E600B36748 /* RGB Sliders */,
+				210053B11AD5D2E600B36748 /* RGB SlidersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2100539B1AD5D2E600B36748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210053A81AD5D2E600B36748 /* Main.storyboard in Resources */,
+				210053AD1AD5D2E600B36748 /* LaunchScreen.xib in Resources */,
+				210053AA1AD5D2E600B36748 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210053B01AD5D2E600B36748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210053991AD5D2E600B36748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210053A51AD5D2E600B36748 /* ViewController.swift in Sources */,
+				210053A31AD5D2E600B36748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210053AE1AD5D2E600B36748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210053B91AD5D2E600B36748 /* RGB_SlidersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210053B41AD5D2E600B36748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2100539C1AD5D2E600B36748 /* RGB Sliders */;
+			targetProxy = 210053B31AD5D2E600B36748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210053A61AD5D2E600B36748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210053A71AD5D2E600B36748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210053AB1AD5D2E600B36748 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210053AC1AD5D2E600B36748 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210053BA1AD5D2E600B36748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210053BB1AD5D2E600B36748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210053BD1AD5D2E600B36748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RGB Sliders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210053BE1AD5D2E600B36748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RGB Sliders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		210053C01AD5D2E600B36748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RGB SlidersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB Sliders.app/RGB Sliders";
+			};
+			name = Debug;
+		};
+		210053C11AD5D2E600B36748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RGB SlidersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB Sliders.app/RGB Sliders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210053981AD5D2E600B36748 /* Build configuration list for PBXProject "RGB Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210053BA1AD5D2E600B36748 /* Debug */,
+				210053BB1AD5D2E600B36748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210053BC1AD5D2E600B36748 /* Build configuration list for PBXNativeTarget "RGB Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210053BD1AD5D2E600B36748 /* Debug */,
+				210053BE1AD5D2E600B36748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210053BF1AD5D2E600B36748 /* Build configuration list for PBXNativeTarget "RGB SlidersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210053C01AD5D2E600B36748 /* Debug */,
+				210053C11AD5D2E600B36748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210053951AD5D2E600B36748 /* Project object */;
+}
